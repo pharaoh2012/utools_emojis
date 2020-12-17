@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "pluginName": "emoji搜索Pro",
+    "description": "🔎快速搜索emoji🔍",
+    "author": "pharaoh",
+    "preload": "preload.js",
+    "logo": "logo.png",
+    "features": [{
+        "platform": ["darwin", "linux", "win32"],
+        "code": "emoji",
+        "explain": "🔎快速搜索emoji🔍",
+        "cmds": ["emoji", "表情"]
+    }],
+    "name": "a949a8bc1"
+}
