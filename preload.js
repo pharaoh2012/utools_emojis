@@ -51,10 +51,41 @@ window.exports = {
             },
             select: async (action, itemData, callbackSetList) => {
                 utools.copyText(itemData.title);
+                //utools.copyText(JSON.stringify(action));
                 utools.hideMainWindow();
                 utools.simulateKeyboardTap('v', utools.isWindows() ? 'ctrl' : 'command')
             },
             placeholder: "搜索，回车发送到活动窗口"
+        }
+    },
+    "emojicode": {
+        mode: "list",
+        args: {
+            enter: async (action, callbackSetList) => {
+                changeStyle();
+                emojis = require('./emojiscode.json')
+                callbackSetList(emojis)
+            },
+            search: (action, searchWord, callbackSetList) => {
+                searchWord = searchWord.trim();
+                if (!searchWord) return callbackSetList(emojis);
+                let kw = searchWord.toLowerCase().split(' ');
+                callbackSetList(emojis.filter(x => {
+                    for(let k of kw) {
+                        if(k) {
+                            if(!x.keyword.includes(k)) return false;
+                        }
+                    }
+                    return true;
+                }))
+            },
+            select: async (action, itemData, callbackSetList) => {
+                utools.copyText(itemData.description);
+                //utools.copyText(JSON.stringify(action));
+                utools.hideMainWindow();
+                utools.simulateKeyboardTap('v', utools.isWindows() ? 'ctrl' : 'command')
+            },
+            placeholder: "搜索，回车发送代码到活动窗口"
         }
     }
 }
