@@ -40,14 +40,20 @@ window.exports = {
                 searchWord = searchWord.trim();
                 if (!searchWord) return callbackSetList(emojis);
                 let kw = searchWord.toLowerCase().split(' ');
-                callbackSetList(emojis.filter(x => {
+                let sRet = emojis.filter(x => {
                     for(let k of kw) {
                         if(k) {
                             if(!x.keyword.includes(k)) return false;
                         }
                     }
                     return true;
-                }))
+                });
+                if(/^[a-zA-Z]+$/.test(searchWord)) {
+                    //纯粹英文进行排序
+                    let reg = new RegExp("\\b"+searchWord+"\\b","i");
+                    sRet.sort((a,b)=>reg.test(a.keyword)?-1:1);
+                }
+                callbackSetList(sRet);
             },
             select: async (action, itemData, callbackSetList) => {
                 utools.copyText(itemData.title);
