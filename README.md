@@ -4,7 +4,10 @@
 
 快速搜索emoji，回车发送到活动窗口。
 
-### V2.0
+### v1.2
+* 纯英文字符搜索，整字匹配的排列在前面，例如搜索`bus`，bus排在bust的前面。
+
+### V1.1
 * 增加了表情代码功能。
 * 表情代码来源：<https://github.com/jzeferino/AllGithubEmojis>
 
