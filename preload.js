@@ -41,9 +41,8 @@ window.exports = {
                         c:{}
                     }
                     emojis.forEach(e => {
-                        e.title = e._id;
-                        e.keyword += e._id;
-                        e.c = emojesClickCount.c[e._id]??0;
+                        e.keyword += e.title;
+                        e.c = emojesClickCount.c[e.title]??0;
                     });
                     emojis.sort((a,b)=>b.c-a.c);
                 }
@@ -73,17 +72,17 @@ window.exports = {
                 callbackSetList(sRet);
             },
             select: async (action, itemData, callbackSetList) => {
-                utools.copyText(itemData._id);
+                utools.copyText(itemData.title);
                 itemData.c++;
-
+                //将点击次数保存到数据库。
+                if(itemData.c<50000) {
+                    emojesClickCount.c[itemData.title]=itemData.c;
+                    utools.db.put(emojesClickCount);
+                }
                 utools.hideMainWindow();
                 utools.simulateKeyboardTap('v', utools.isWindows() ? 'ctrl' : 'command')
                 emojis.sort((a,b)=>b.c-a.c);
-                //将点击次数保存到数据库。
-                if(itemData.c<50000) {
-                    emojesClickCount.c[itemData._id]=itemData.c;
-                    utools.db.put(emojesClickCount);
-                }
+
 
             },
             placeholder: "搜索，回车发送到活动窗口"
