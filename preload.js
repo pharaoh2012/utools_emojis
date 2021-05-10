@@ -76,8 +76,11 @@ window.exports = {
                 itemData.c++;
                 //将点击次数保存到数据库。
                 if(itemData.c<50000) {
+                    console.log("save to db:",itemData);
                     emojesClickCount.c[itemData.title]=itemData.c;
-                    utools.db.put(emojesClickCount);
+                    let r = utools.db.put(emojesClickCount);
+                    if(r.ok)  emojesClickCount._rev = r.rev;
+                    console.info(r);
                 }
                 utools.hideMainWindow();
                 utools.simulateKeyboardTap('v', utools.isWindows() ? 'ctrl' : 'command')
