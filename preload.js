@@ -83,7 +83,7 @@ window.exports = {
                     console.info(r);
                 }
                 utools.hideMainWindow();
-                utools.simulateKeyboardTap('v', utools.isWindows() ? 'ctrl' : 'command')
+                utools.simulateKeyboardTap('v', utools.isMacOs() ? 'command' : 'ctrl')
                 emojis.sort((a,b)=>b.c-a.c);
 
 
@@ -119,7 +119,7 @@ window.exports = {
                 utools.copyText(itemData.description);
                 //utools.copyText(JSON.stringify(action));
                 utools.hideMainWindow();
-                utools.simulateKeyboardTap('v', utools.isWindows() ? 'ctrl' : 'command')
+                utools.simulateKeyboardTap('v', utools.isMacOs() ? 'command' : 'ctrl')
             },
             placeholder: "搜索，回车发送代码到活动窗口"
         }
