@@ -35,6 +35,11 @@ window.exports = {
                 if (!emojis) {
                     console.log('init emojis')
                     emojis = require('./emojis.json')
+                    greek = require('./greek_alphabet.json')
+                    mathSym = require('./math_symbols.json')
+                    pinyin = require('./pinyin.json')
+                    numbers = require('./numbers.json')
+                    emojis = emojis.concat(greek).concat(mathSym).concat(pinyin).concat(numbers)
                     emojesClickCount = utools.db.get("emojesClickCount");
                     if(!emojesClickCount) emojesClickCount = {
                         _id:"emojesClickCount",
