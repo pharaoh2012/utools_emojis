@@ -18,10 +18,33 @@ changeStyle = () => {
 let emojis_code, emojis;
 let emojesClickCount;
 let recentTitles;
+let options;
 
 utools.onPluginReady(() => {
     changeStyle();
 })
+
+copyOnly = () => {
+    options = "copyOnly";
+    window.utools.dbStorage.setItem('options', options)
+    window.utools.showNotification("当前模式为" + options)
+}
+
+copyPaste = () => {
+    options = "copyPaste";
+    window.utools.dbStorage.setItem('options', options)
+    window.utools.showNotification("当前模式为" + options)
+}
+
+showMode = () => {
+    window.utools.showNotification("当前模式为" + options)
+}
+
+const optActions = {
+    copyOnly: copyOnly,
+    copyPaste: copyPaste,
+    showMode: showMode
+}
 
 // 列表模式
 window.exports = {
@@ -36,7 +59,8 @@ window.exports = {
                     mathSym = require('./math_symbols.json')
                     pinyin = require('./pinyin.json')
                     numbers = require('./numbers.json')
-                    emojis = emojis.concat(greek).concat(mathSym).concat(pinyin).concat(numbers)
+                    opts = require('./options.json')
+                    emojis = emojis.concat(greek).concat(mathSym).concat(pinyin).concat(opts).concat(numbers)
                     emojesClickCount = utools.db.get("emojesClickCount");
                     if (!emojesClickCount) emojesClickCount = {
                         _id: "emojesClickCount",
@@ -59,6 +83,7 @@ window.exports = {
                     return true
                 })
                 emojis = recentItems.concat(emojis)
+                options = window.utools.dbStorage.getItem('options') ?? "copyPaste"
                 callbackSetList(emojis)
             },
             search: (action, searchWord, callbackSetList) => {
@@ -84,8 +109,12 @@ window.exports = {
                 callbackSetList(sRet);
             },
             select: async (action, itemData, callbackSetList) => {
-                window.utools.showNotification(action)
-                console.log(action)
+                if ('optid' in itemData) {
+                    console.log(itemData)
+                    optid = itemData['optid']
+                    optActions[optid]()
+                    return
+                }
                 utools.copyText(itemData.title);
                 itemData.c++;
                 //将点击次数保存到数据库。
@@ -102,7 +131,9 @@ window.exports = {
                 recentTitles.unshift(itemData.title)
                 window.utools.dbStorage.setItem('recentTitles', recentTitles)
                 utools.hideMainWindow();
-                utools.simulateKeyboardTap('v', utools.isMacOs() ? 'command' : 'ctrl')
+                if (options == "copyPaste") {
+                    utools.simulateKeyboardTap('v', utools.isMacOs() ? 'command' : 'ctrl')
+                }
                 emojis.sort((a, b) => b.c - a.c);
             },
             placeholder: "搜索，回车发送到活动窗口"
