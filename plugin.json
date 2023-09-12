@@ -1,5 +1,5 @@
 {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "pluginName": "emoji搜索Pro",
     "description": "🔎快速搜索emoji🔍",
     "author": "pharaoh",
@@ -14,7 +14,7 @@
         "platform": ["darwin", "linux", "win32"],
         "code": "emojicode",
         "explain": "快速搜索emoji,将表情代码发送到活动窗口",
-        "cmds": ["emojicode", "表情"]
+        "cmds": ["EmojiCode", "表情"]
     }],
     "name": "a949a8bc1"
 }
