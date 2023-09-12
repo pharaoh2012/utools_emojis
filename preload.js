@@ -54,12 +54,12 @@ window.exports = {
             enter: async (action, callbackSetList) => {
                 if (!emojis) {
                     console.log('init emojis')
-                    emojis = require('./emojis.json')
-                    greek = require('./greek_alphabet.json')
-                    mathSym = require('./math_symbols.json')
-                    pinyin = require('./pinyin.json')
-                    numbers = require('./numbers.json')
-                    opts = require('./options.json')
+                    emojis = require('./json/emojis.json')
+                    greek = require('./json/greek_alphabet.json')
+                    mathSym = require('./json/math_symbols.json')
+                    pinyin = require('./json/pinyin.json')
+                    numbers = require('./json/numbers.json')
+                    opts = require('./json/options.json')
                     emojis = emojis.concat(greek).concat(mathSym).concat(pinyin).concat(opts).concat(numbers)
                     emojesClickCount = utools.db.get("emojesClickCount");
                     if (!emojesClickCount) emojesClickCount = {
@@ -146,7 +146,7 @@ window.exports = {
                 //changeStyle();
                 if (!emojis_code) {
                     console.log('init emojis_code')
-                    emojis_code = require('./emojiscode.json')
+                    emojis_code = require('./json/emojiscode.json')
                 }
                 callbackSetList(emojis_code)
             },
@@ -164,10 +164,11 @@ window.exports = {
                 }))
             },
             select: async (action, itemData, callbackSetList) => {
-                utools.copyText(itemData.description);
-                //utools.copyText(JSON.stringify(action));
-                utools.hideMainWindow();
-                utools.simulateKeyboardTap('v', utools.isMacOs() ? 'command' : 'ctrl')
+                utools.hideMainWindowTypeString(itemData.description);
+                // utools.copyText(itemData.description);
+                // //utools.copyText(JSON.stringify(action));
+                // utools.hideMainWindow();
+                // utools.simulateKeyboardTap('v', utools.isMacOs() ? 'command' : 'ctrl')
             },
             placeholder: "搜索，回车发送代码到活动窗口"
         }
