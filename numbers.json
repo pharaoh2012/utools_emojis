@@ -1,0 +1,42 @@
+[
+{
+    "description": "数字序号，带圈的一",
+    "keyword": "数字序号，带圈的一(1, yi, one)",
+    "title": "①"
+},
+{
+    "title": "②",
+    "keyword": "数字序号，带圈的二, er, 2, two",
+    "description": "数字序号，带圈的二"
+},
+{
+    "title": "③",
+    "keyword": "数字序号，带圈的三, san, 3, three",
+    "description": "数字序号，带圈的三"
+},
+{
+    "title": "④",
+    "keyword": "数字序号，带圈的四, si, 4",
+    "description": "数字序号，带圈的四"
+},
+{
+    "title": "⑤",
+    "keyword": "数字序号，带圈的五, wu, 5",
+    "description": "数字序号，带圈的五"
+},
+{
+    "title": "⑥",
+    "keyword": "数字序号，带圈的六, liu, 6",
+    "description": "数字序号，带圈的六"
+},
+{
+    "title": "⑦",
+    "keyword": "数字序号，带圈的七, qi, 7",
+    "description": "数字序号，带圈的七"
+},
+{
+    "title": "⑧",
+    "keyword": "数字序号，带圈的八,ba, 8",
+    "description": "数字序号，带圈的八"
+}
+]
