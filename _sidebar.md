@@ -1,3 +1,3 @@
-- [插件介绍](./readme.md)
+- [插件介绍](./)
 - [设置](./setting.md)
 - [更新历史](./history.md)
