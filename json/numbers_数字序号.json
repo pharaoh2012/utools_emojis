@@ -1,0 +1,252 @@
+[
+  {
+    "description": "数字序号，带圈的一,1",
+    "keyword": "数字序号，带圈的,1,一,yi,one",
+    "title": "①"
+  },
+  {
+    "description": "数字序号，带圈的二,2",
+    "keyword": "数字序号，带圈的,2,二,er,two",
+    "title": "②"
+  },
+  {
+    "description": "数字序号，带圈的三,3",
+    "keyword": "数字序号，带圈的,3,三,san,three",
+    "title": "③"
+  },
+  {
+    "description": "数字序号，带圈的四,4",
+    "keyword": "数字序号，带圈的,4,四,si,four",
+    "title": "④"
+  },
+  {
+    "description": "数字序号，带圈的五,5",
+    "keyword": "数字序号，带圈的,5,五,wu,five",
+    "title": "⑤"
+  },
+  {
+    "description": "数字序号，带圈的六,6",
+    "keyword": "数字序号，带圈的,6,六,liu,six",
+    "title": "⑥"
+  },
+  {
+    "description": "数字序号，带圈的七,7",
+    "keyword": "数字序号，带圈的,7,七,qi,seven",
+    "title": "⑦"
+  },
+  {
+    "description": "数字序号，带圈的八,8",
+    "keyword": "数字序号，带圈的,8,八,ba,eight",
+    "title": "⑧"
+  },
+  {
+    "description": "数字序号，带圈的九,9",
+    "keyword": "数字序号，带圈的,9,九,jiu,nine",
+    "title": "⑨"
+  },
+  {
+    "description": "数字序号，带圈的十,10",
+    "keyword": "数字序号，带圈的,10,十,shi,ten",
+    "title": "⑩"
+  },
+  {
+    "description": "数字序号，带圈的十一,11",
+    "keyword": "数字序号，带圈的,11,十一,shiyi,eleven",
+    "title": "⑪"
+  },
+  {
+    "description": "数字序号，带圈的十二,12",
+    "keyword": "数字序号，带圈的,12,十二,shier,twelve",
+    "title": "⑫"
+  },
+  {
+    "description": "数字序号，带圈的十三,13",
+    "keyword": "数字序号，带圈的,13,十三,shisan,thirteen",
+    "title": "⑬"
+  },
+  {
+    "description": "数字序号，带圈的十四,14",
+    "keyword": "数字序号，带圈的,14,十四,shisi,fourteen",
+    "title": "⑭"
+  },
+  {
+    "description": "数字序号，带圈的十五,15",
+    "keyword": "数字序号，带圈的,15,十五,shiwu,fifteen",
+    "title": "⑮"
+  },
+  {
+    "description": "数字序号，带圈的十六,16",
+    "keyword": "数字序号，带圈的,16,十六,shiliu,sixteen",
+    "title": "⑯"
+  },
+  {
+    "description": "数字序号，带圈的十七,17",
+    "keyword": "数字序号，带圈的,17,十七,shiqi,seventeen",
+    "title": "⑰"
+  },
+  {
+    "description": "数字序号，带圈的十八,18",
+    "keyword": "数字序号，带圈的,18,十八,shiba,eighteen",
+    "title": "⑱"
+  },
+  {
+    "description": "数字序号，带圈的十九,19",
+    "keyword": "数字序号，带圈的,19,十九,shijiu,nineteen",
+    "title": "⑲"
+  },
+  {
+    "description": "数字序号，带圈的二十,20",
+    "keyword": "数字序号，带圈的,20,二十,ershi,twenty",
+    "title": "⑳"
+  },
+  {
+    "description": "数字序号，带圈的二十一,21",
+    "keyword": "数字序号，带圈的,21,二十一,ershiyi,twenty-one",
+    "title": "㉑"
+  },
+  {
+    "description": "数字序号，带圈的二十二,22",
+    "keyword": "数字序号，带圈的,22,二十二,ershier,twenty-two",
+    "title": "㉒"
+  },
+  {
+    "description": "数字序号，带圈的二十三,23",
+    "keyword": "数字序号，带圈的,23,二十三,ershisan,twenty-three",
+    "title": "㉓"
+  },
+  {
+    "description": "数字序号，带圈的二十四,24",
+    "keyword": "数字序号，带圈的,24,二十四,ershisi,twenty-four",
+    "title": "㉔"
+  },
+  {
+    "description": "数字序号，带圈的二十五,25",
+    "keyword": "数字序号，带圈的,25,二十五,ershiwu,twenty-five",
+    "title": "㉕"
+  },
+  {
+    "description": "数字序号，带圈的二十六,26",
+    "keyword": "数字序号，带圈的,26,二十六,ershiliu,twenty-six",
+    "title": "㉖"
+  },
+  {
+    "description": "数字序号，带圈的二十七,27",
+    "keyword": "数字序号，带圈的,27,二十七,ershiqi,twenty-seven",
+    "title": "㉗"
+  },
+  {
+    "description": "数字序号，带圈的二十八,28",
+    "keyword": "数字序号，带圈的,28,二十八,ershiba,twenty-eight",
+    "title": "㉘"
+  },
+  {
+    "description": "数字序号，带圈的二十九,29",
+    "keyword": "数字序号，带圈的,29,二十九,ershijiu,twenty-nine",
+    "title": "㉙"
+  },
+  {
+    "description": "数字序号，带圈的三十,30",
+    "keyword": "数字序号，带圈的,30,三十,sanshi,thirty",
+    "title": "㉚"
+  },
+  {
+    "description": "数字序号，带圈的三十一,31",
+    "keyword": "数字序号，带圈的,31,三十一,sanshiyi,thirty-one",
+    "title": "㉛"
+  },
+  {
+    "description": "数字序号，带圈的三十二,32",
+    "keyword": "数字序号，带圈的,32,三十二,sanshier,thirty-two",
+    "title": "㉜"
+  },
+  {
+    "description": "数字序号，带圈的三十三,33",
+    "keyword": "数字序号，带圈的,33,三十三,sanshisan,thirty-three",
+    "title": "㉝"
+  },
+  {
+    "description": "数字序号，带圈的三十四,34",
+    "keyword": "数字序号，带圈的,34,三十四,sanshisi,thirty-four",
+    "title": "㉞"
+  },
+  {
+    "description": "数字序号，带圈的三十五,35",
+    "keyword": "数字序号，带圈的,35,三十五,sanshiwu,thirty-five",
+    "title": "㉟"
+  },
+  {
+    "description": "数字序号，带圈的三十六,36",
+    "keyword": "数字序号，带圈的,36,三十六,sanshiliu,thirty-six",
+    "title": "㊱"
+  },
+  {
+    "description": "数字序号，带圈的三十七,37",
+    "keyword": "数字序号，带圈的,37,三十七,sanshiqi,thirty-seven",
+    "title": "㊲"
+  },
+  {
+    "description": "数字序号，带圈的三十八,38",
+    "keyword": "数字序号，带圈的,38,三十八,sanshiba,thirty-eight",
+    "title": "㊳"
+  },
+  {
+    "description": "数字序号，带圈的三十九,39",
+    "keyword": "数字序号，带圈的,39,三十九,sanshijiu,thirty-nine",
+    "title": "㊴"
+  },
+  {
+    "description": "数字序号，带圈的四十,40",
+    "keyword": "数字序号，带圈的,40,四十,sishi,forty",
+    "title": "㊵"
+  },
+  {
+    "description": "数字序号，带圈的四十一,41",
+    "keyword": "数字序号，带圈的,41,四十一,sishiyi,forty-one",
+    "title": "㊶"
+  },
+  {
+    "description": "数字序号，带圈的四十二,42",
+    "keyword": "数字序号，带圈的,42,四十二,sishier,forty-two",
+    "title": "㊷"
+  },
+  {
+    "description": "数字序号，带圈的四十三,43",
+    "keyword": "数字序号，带圈的,43,四十三,sishisan,forty-three",
+    "title": "㊸"
+  },
+  {
+    "description": "数字序号，带圈的四十四,44",
+    "keyword": "数字序号，带圈的,44,四十四,sishisi,forty-four",
+    "title": "㊹"
+  },
+  {
+    "description": "数字序号，带圈的四十五,45",
+    "keyword": "数字序号，带圈的,45,四十五,sishiwu,forty-five",
+    "title": "㊺"
+  },
+  {
+    "description": "数字序号，带圈的四十六,46",
+    "keyword": "数字序号，带圈的,46,四十六,sishiliu,forty-six",
+    "title": "㊻"
+  },
+  {
+    "description": "数字序号，带圈的四十七,47",
+    "keyword": "数字序号，带圈的,47,四十七,sishiqi,forty-seven",
+    "title": "㊼"
+  },
+  {
+    "description": "数字序号，带圈的四十八,48",
+    "keyword": "数字序号，带圈的,48,四十八,sishiba,forty-eight",
+    "title": "㊽"
+  },
+  {
+    "description": "数字序号，带圈的四十九,49",
+    "keyword": "数字序号，带圈的,49,四十九,sishijiu,forty-nine",
+    "title": "㊾"
+  },
+  {
+    "description": "数字序号，带圈的五十,50",
+    "keyword": "数字序号，带圈的,50,五十,wushi,fifty",
+    "title": "㊿"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "title": "∪",
+    "keyword": "數學符號, 集合, 並集",
+    "description": "數學符號, 集合, 並集"
+  },
+  {
+    "title": "∩",
+    "keyword": "數學符號, 集合, 交集",
+    "description": "數學符號, 集合, 交集"
+  },
+  {
+    "title": "⊆",
+    "keyword": "數學符號, 集合, 子集",
+    "description": "數學符號, 集合, 子集"
+  },
+  {
+    "title": "⊂",
+    "keyword": "數學符號, 集合, 真子集",
+    "description": "數學符號, 集合, 真子集"
+  },
+  {
+    "title": "⊄",
+    "keyword": "數學符號, 集合, 非子集",
+    "description": "數學符號, 集合, 非子集"
+  },
+  {
+    "title": "⊇",
+    "keyword": "數學符號, 集合, 超集",
+    "description": "數學符號, 集合, 超集"
+  },
+  {
+    "title": "⊃",
+    "keyword": "數學符號, 集合, 真超集",
+    "description": "數學符號, 集合, 真超集"
+  },
+  {
+    "title": "⊅",
+    "keyword": "數學符號, 集合, 非超集",
+    "description": "數學符號, 集合, 非超集"
+  },
+  {
+    "title": "∈",
+    "keyword": "數學符號, 集合, 屬於",
+    "description": "數學符號, 集合, 屬於"
+  },
+  {
+    "title": "∅",
+    "keyword": "數學符號, 集合, 空集",
+    "description": "數學符號, 集合, 空集"
+  },
+  {
+    "title": "∀",
+    "keyword": "數學符號, 集合, 對於所有, any",
+    "description": "數學符號, 集合, 對於所有"
+  },
+  {
+    "title": "∃",
+    "keyword": "數學符號, 集合, 存在, exist",
+    "description": "數學符號, 集合, 存在"
+  },
+  {
+    "title": "≠",
+    "keyword": "數學符號, 基本符號, 不等於",
+    "description": "數學符號, 不等於"
+  },
+  {
+    "title": "≥",
+    "keyword": "數學符號, 基本符號, 大於等於",
+    "description": "數學符號, 大於等於"
+  },
+  {
+    "title": "≤",
+    "keyword": "數學符號, 基本符號, 小於等於",
+    "description": "數學符號, 小於等於"
+  },
+  {
+    "title": "÷",
+    "keyword": "數學符號, 基本符號, 除以, 除號",
+    "description": "數學符號, 除號"
+  },
+  {
+    "title": "¬",
+    "keyword": "數學符號, 邏輯非",
+    "description": "數學符號, 邏輯非"
+  },
+  {
+    "title": "∵",
+    "keyword": "數學符號, 因為",
+    "description": "數學符號, 因為"
+  },
+  {
+    "title": "∴",
+    "keyword": "數學符號, 所以",
+    "description": "數學符號, 所以"
+  },
+  {
+    "title": "∞",
+    "keyword": "數學符號, 無窮",
+    "description": "數學符號, 無窮"
+  },
+  {
+    "title": "∑",
+    "keyword": "數學符號, 求和, sum, sigma",
+    "description": "數學符號, 求和"
+  },
+  {
+    "title": "∠",
+    "keyword": "數學符號, 幾何, 角",
+    "description": "數學符號, 角"
+  },
+  {
+    "title": "℃",
+    "keyword": "數學符號, 單位, 攝氏度",
+    "description": "數學符號, 攝氏度"
+  },
+  {
+    "title": "°",
+    "keyword": "數學符號, 幾何, 度",
+    "description": "數學符號, 度"
+  }
+]

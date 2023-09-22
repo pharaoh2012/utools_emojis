@@ -259,6 +259,12 @@ window.exports = {
                         "type": "cmd",
                         "key": "addDic"
                     })
+                    // emojis_options.push({
+                    //     "title": "➕",
+                    //     "description": "[📕] 列表",
+                    //     "type": "cmd",
+                    //     "key": "list"
+                    // })                    
 
                 }
                 callbackSetList(emojis_options)
@@ -329,6 +335,31 @@ window.exports = {
                                     window.utools.showNotification("对照表已经存在，没有添加!")
                                 }
                             }
+                        }
+                        else if(key == "list") {
+                            const ubWindow = utools.createBrowserWindow('setting.html', {
+                                show: false,
+                                title: '测试窗口',
+                                webPreferences: {
+                                  preload: 'preload.js'
+                                }
+                              }, () => {
+                                // 显示
+                                ubWindow.show()
+                                // 置顶
+                                ubWindow.setAlwaysOnTop(true)
+                                // 窗口全屏
+                                //ubWindow.setFullScreen(true)
+                                // 向子窗口传递数据
+                                //ubWindow.webContents.send('ping')
+                                //require('electron').ipcRenderer.sendTo(ubWindow.webContents.id, 'ping')
+                                // 执行脚本
+                                // ubWindow.executeJavaScript('fetch("https://jsonplaceholder.typicode.com/users/1").then(resp => resp.json())')
+                                //   .then((result) => {
+                                //     console.log(result) // Will be the JSON object from the fetch call
+                                //   })
+                              })
+                              console.log(ubWindow)
                         }
 
                         break;
