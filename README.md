@@ -1,6 +1,7 @@
 ## 简介
 
 快速搜索emoji，回车发送到活动窗口。
+源代码在main分支: <https://github.com/pharaoh2012/utools_emojis>
 ![utools_emoji.gif](./imgs/utools_emoji.gif)
 ### 主要功能
 
